@@ -8,10 +8,10 @@ store_owner_id = '1206854666'
 item_name=[]
 details=[]
 # MySQL database connection details
-DB_HOST = 'localhost'
-DB_USER = 'root'
-DB_PASSWORD = 'Ar AbhilAsh'
-DB_NAME = 'sys'
+DB_HOST = 'db_host'
+DB_USER = 'db_user'
+DB_PASSWORD = 'db_password'
+DB_NAME = 'db_name'
 
 # Initialize the Telegram bot
 bot = telebot.TeleBot(TOKEN)
